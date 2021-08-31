@@ -13,7 +13,7 @@ export default function Tokenomics() {
 							Our customers love our product
 						</p>
 						<h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl lg:text-5xl xl:text-6xl">
-							Testimonials
+							Tokenomics
 						</h2>
 						<p className="my-6 text-lg text-gray-600">
 							Don't just take our word for it, read from our
