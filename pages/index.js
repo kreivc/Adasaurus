@@ -24,16 +24,37 @@ export default function Home() {
 					name="viewport"
 					content="initial-scale=1.0, width=device-width"
 				/>
+
+				<meta name="title" content="Punk Ether Earn" />
+				<meta
+					name="description"
+					content="Our main goal is to provide people a safe and trustworthy place where they can invest their money. PEE holders can earn Ether rewards by holding a certain amount of the token. As a community developed token, we focus on the needs of our community members."
+				/>
+
+				<meta property="og:type" content="website" />
+				<meta
+					property="og:url"
+					content="https://tokenkreivc.netlify.app/"
+				/>
+				<meta property="og:title" content="Punk Ether Earn" />
+				<meta
+					property="og:description"
+					content="Our main goal is to provide people a safe and trustworthy place where they can invest their money. PEE holders can earn Ether rewards by holding a certain amount of the token. As a community developed token, we focus on the needs of our community members."
+				/>
+				<meta
+					property="og:image"
+					content="https://i.ibb.co/JkY1K6v/PeeOG.jpg"
+				/>
 			</Head>
 
 			<Navbar isOpen={isOpen} toggle={toggle} />
 			<ParticleBackground />
 			<Hero />
 			<About />
-			<Tokenomics />
+			{/* <Tokenomics />
 			<Timeline />
 			<Howto />
-			<Footer />
+			<Footer /> */}
 		</>
 	);
 }

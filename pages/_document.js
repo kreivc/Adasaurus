@@ -30,7 +30,7 @@ class MyDocument extends Document {
 						}
 
 						html::-webkit-scrollbar-thumb {
-							background-color: #844421;
+							background-color: #01bf71;
 							border-radius: 15px;
 						}
 

@@ -1,6 +1,4 @@
 import React from "react";
-import Mockup from "../assets/howtobuy-mockup.png";
-import Image from "next/image";
 
 export default function Howto() {
 	return (
@@ -20,14 +18,14 @@ export default function Howto() {
 							testimonials.
 						</p>
 						<a
-							href="#_"
+							href="#"
 							className="flex items-center justify-center px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md shadow hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo md:py-4 md:text-lg md:px-10"
 						>
 							View Case Studies
 						</a>
 					</div>
 					<div className=" w-full lg:w-1/4">
-						<Image src={Mockup} objectFit="fill" />
+						<img src="./howtobuy-mockup.png" alt="mockup" />
 					</div>
 				</div>
 			</div>

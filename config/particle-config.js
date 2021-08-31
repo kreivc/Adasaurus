@@ -8,7 +8,7 @@ const particlesConfig = {
 			},
 		},
 		color: {
-			value: "#693303",
+			value: "#293cc7",
 		},
 		shape: {
 			type: "circle",
@@ -18,6 +18,11 @@ const particlesConfig = {
 			},
 			polygon: {
 				nb_sides: 5,
+			},
+			image: {
+				src: "https://ibb.co/Ltmrvb4",
+				width: 100,
+				height: 100,
 			},
 		},
 		opacity: {

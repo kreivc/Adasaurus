@@ -21,7 +21,7 @@ export default function Tokenomics() {
 							testimonials.
 						</p>
 						<a
-							href="#_"
+							href="#"
 							className="flex items-center justify-center px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md shadow hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo md:py-4 md:text-lg md:px-10"
 						>
 							View Case Studies
