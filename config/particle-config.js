@@ -20,7 +20,7 @@ const particlesConfig = {
 				nb_sides: 5,
 			},
 			image: {
-				src: "https://ibb.co/Ltmrvb4",
+				src: "https://i.ibb.co/xjWY3PV/DINO.png",
 				width: 100,
 				height: 100,
 			},
