@@ -34,62 +34,64 @@ export default function Navbar({ isOpen, toggle }) {
 									<span className="text-[#01bf71]">.</span>
 								</a>
 								<hr className="mx-2 md:hidden" />
-								<div className="flex items-start justify-center w-full space-x-2 text-center lg:space-x-8 md:w-2/3 md:mt-0 md:flex-row md:items-center">
+								<div className="mt-1 flex items-start justify-center w-full space-x-0 text-center lg:space-x-8 md:w-2/3 md:mt-0 md:flex-row md:items-center">
 									<Link
-										to="/"
-										smooth={true}
+										to="home"
+										smooth="true"
 										duration={500}
 										spy={true}
 										exact="true"
-										className="text-center inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71] hover:text-[#01bf71]"
+										className="text-center inline-block w-full py-2 mx-0 font-medium text-gray-700 md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71] hover:text-[#01bf71]"
 										onClick={toggle}
 									>
 										Home
 									</Link>
 									<Link
 										to="about"
-										smooth={true}
+										smooth="true"
 										duration={500}
 										spy={true}
 										exact="true"
-										className="text-center inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-[#01bf71] lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71]"
+										className="text-center inline-block w-full py-2 mx-0 font-medium text-gray-700 md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71] hover:text-[#01bf71]"
 										onClick={toggle}
 									>
 										About
 									</Link>
 									<Link
 										to="tokenomics"
-										smooth={true}
+										smooth="true"
 										duration={500}
 										spy={true}
 										exact="true"
-										className="text-center inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-[#01bf71] lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71]"
+										className="text-center inline-block w-full py-2 mx-0 font-medium text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-[#01bf71] lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71]"
 										onClick={toggle}
 									>
 										Tokenomics
 									</Link>
 									<Link
 										to="timeline"
-										smooth={true}
+										smooth="true"
 										duration={500}
 										spy={true}
 										exact="true"
-										className="text-center inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-[#01bf71] lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71]"
+										className="text-center inline-block w-full py-2 mx-0 font-medium text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-[#01bf71] lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71]"
 										onClick={toggle}
 									>
 										Timeline
 									</Link>
 									<a
-										href="#"
-										className="text-center inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-[#01bf71] lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71]"
+										href="https://poocoin.app/"
+										target="_blank"
+										className="text-center inline-block w-full py-2 mx-0 font-medium text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-[#01bf71] lg:mx-3 md:text-center cursor-pointer focus:outline-none"
 										onClick={toggle}
 									>
 										Chart
 									</a>
 								</div>
-								<div className="flex flex-col items-start justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0">
+								<div className="flex flex-col items-start justify-end w-full pt-1 md:items-center md:w-1/3 md:flex-row md:py-0">
 									<a
-										href="#"
+										href="https://pancakeswap.finance/"
+										target="_blank"
 										className="inline-flex items-center w-full px-6 py-3 text-sm font-medium leading-4 text-white bg-[#01bf71] md:px-3 md:w-auto md:rounded-full lg:px-5 hover:bg-[#01bf71] focus:outline-none"
 										onClick={toggle}
 									>
@@ -127,9 +129,9 @@ export default function Navbar({ isOpen, toggle }) {
 								xmlns="http://www.w3.org/2000/svg"
 							>
 								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									strokeWidth="2"
 									d="M6 18L18 6M6 6l12 12"
 								></path>
 							</svg>

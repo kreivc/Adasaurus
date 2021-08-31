@@ -9,36 +9,37 @@ class MyDocument extends Document {
 						name="description"
 						content="Kreivc Ecommerce using Next.js"
 					/>
+					{/* html {
+								overflow-y: auto;
+								overflow-x: hidden;
+							}
+
+							body {
+								overflow: hidden;
+								position: relative;
+							} */}
 					<style>
-						{`html {
-							overflow-y: auto;
-							overflow-x: hidden;
-						}
+						{`	
 
-						body {
-							overflow: hidden;
-							position: relative;
-						}
+							html::-webkit-scrollbar {
+								width: 0.62em;
+							}
 
-						html::-webkit-scrollbar {
-							width: 0.62em;
-						}
+							html::-webkit-scrollbar-track {
+								box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+								background-color: white;
+							}
 
-						html::-webkit-scrollbar-track {
-							box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-							background-color: white;
-						}
+							html::-webkit-scrollbar-thumb {
+								background-color: #01bf71;
+								border-radius: 15px;
+							}
 
-						html::-webkit-scrollbar-thumb {
-							background-color: #01bf71;
-							border-radius: 15px;
-						}
-
-						canvas {
-							top: 0;
-							position: fixed;
-							z-index: -1;
-						}`}
+							canvas {
+								top: 0;
+								position: fixed;
+								z-index: -1;
+							}`}
 					</style>
 				</Head>
 				<body>
