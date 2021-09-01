@@ -21,7 +21,7 @@ export default function Home() {
 			<Head>
 				<title>Adasaurus</title>
 
-				<meta charset="utf-8" />
+				<meta charSet="utf-8" />
 				<meta
 					name="viewport"
 					content="width=device-width, initial-scale=1"
@@ -50,14 +50,21 @@ export default function Home() {
 				/>
 			</Head>
 
-			<Navbar isOpen={isOpen} toggle={toggle} />
-			<ParticleBackground />
-			<Hero />
+			<section
+				className="w-full px-6 pb-0 antialiased bg-white"
+				data-aos="fade-down"
+			>
+				<div className="mx-auto max-w-7xl">
+					<Navbar isOpen={isOpen} toggle={toggle} />
+					<ParticleBackground />
+					<Hero />
+				</div>
+			</section>
 			<About />
-			{/* <Tokenomics />
+			<Tokenomics />
 			<Timeline />
 			<Howto />
-			<Footer /> */}
+			<Footer />
 		</>
 	);
 }

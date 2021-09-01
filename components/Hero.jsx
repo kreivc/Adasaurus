@@ -39,7 +39,7 @@ export default function Hero() {
 					<CopyToClipboard text="0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx">
 						<button
 							type="button"
-							className="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white bg-[#01bf71] border border-transparent rounded-full md:w-auto hover:bg-[#3bc98d] focus:outline-none "
+							className="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white bg-[#01bf71] border border-transparent rounded-full md:w-auto hover:bg-[#3bc98d] focus:outline-none transition duration-150 ease-in-out"
 							onClick={() => setCopied(!copied)}
 						>
 							0xxxxxxxxxxxxxxxxxxxxxxxxx

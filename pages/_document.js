@@ -9,7 +9,10 @@ class MyDocument extends Document {
 						name="description"
 						content="Kreivc Ecommerce using Next.js"
 					/>
-					{/* html {
+
+					<style>
+						{`	
+							html {
 								overflow-y: auto;
 								overflow-x: hidden;
 							}
@@ -17,9 +20,7 @@ class MyDocument extends Document {
 							body {
 								overflow: hidden;
 								position: relative;
-							} */}
-					<style>
-						{`	
+							}
 
 							html::-webkit-scrollbar {
 								width: 0.62em;
@@ -37,6 +38,7 @@ class MyDocument extends Document {
 
 							canvas {
 								top: 0;
+								left: 0;
 								position: fixed;
 								z-index: -1;
 							}`}

@@ -7,50 +7,49 @@ export default function Timeline() {
 			id="timeline"
 		>
 			<div className="container px-8 mx-auto sm:px-12 xl:px-5">
-				<p className="text-xs font-bold text-left text-pink-500 uppercase sm:mx-6 sm:text-center sm:text-normal sm:font-bold">
-					Got a Question? We’ve got answers.
+				<p className="text-xs font-bold text-left text-[#293cc7] uppercase sm:mx-6 sm:text-center sm:text-normal sm:font-bold">
+					Our Plan For Future?
 				</p>
 				<h3 className="mt-1 text-2xl font-bold text-left text-gray-800 sm:mx-10 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center">
-					Frequently Asked Questions
+					Timeline For Adasaurus Project
 				</h3>
 				<div className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
-					<h3 className="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">
-						How does it work?
+					<h3 className="text-lg font-bold text-[#01bf71] sm:text-xl md:text-2xl">
+						Initialize Token - September, 2021
 					</h3>
 					<p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-						Our platform works with your content to provides
-						insights and metrics on how you can grow your business
-						and scale your infastructure.
+						In this phase, we launch community group, lauch website
+						also initialize Adasaurus token.
 					</p>
 				</div>
 				<div className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
-					<h3 className="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">
-						Do you offer team pricing?
+					<h3 className="text-lg font-bold text-[#01bf71] sm:text-xl md:text-2xl">
+						Marketing Phase - September, 2021
 					</h3>
 					<p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-						Yes, we do! Team pricing is available for any plan. You
-						can take advantage of 30% off for signing up for team
-						pricing of 10 users or more.
+						After token lauch, we have target for 10k Holders also
+						we do further listings to some platform and do
+						collaboration with key market players.
 					</p>
 				</div>
 				<div className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
-					<h3 className="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">
-						How do I make changes and configure my site?
+					<h3 className="text-lg font-bold text-[#01bf71] sm:text-xl md:text-2xl">
+						Retain Holder - October, 2021
 					</h3>
 					<p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-						You can easily change your site settings inside of your
-						site dashboard by clicking the top right menu and
-						clicking the settings button.
+						After Marketing Phase, we know all thing will be bored
+						so we provide a solution like Contract logo, further
+						marketing, also reach 20k Holders & 15k Telegram Members
+						for target.
 					</p>
 				</div>
 				<div className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
-					<h3 className="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">
-						How do I add a custom domain?
+					<h3 className="text-lg font-bold text-[#01bf71] sm:text-xl md:text-2xl">
+						What We Do Next??
 					</h3>
 					<p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-						You can easily change your site settings inside of your
-						site dashboard by clicking the top right menu and
-						clicking the settings button.
+						To be Announced! Just reminder, something big like a
+						dino will coming!
 					</p>
 				</div>
 			</div>
