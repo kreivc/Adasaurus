@@ -14,7 +14,6 @@ export default function Navbar({ isOpen, toggle }) {
 					</a>
 				</div>
 
-				{/*  */}
 				<div
 					className={`top-0 left-0 items-start w-full h-full p-4 text-sm bg-opacity-50 md:items-center md:w-3/4 lg:relative md:absolute lg:text-base md:bg-transparent md:p-0 md:flex flex fixed ${
 						isOpen ? "flex fixed" : "hidden"

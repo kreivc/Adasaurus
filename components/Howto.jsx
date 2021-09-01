@@ -8,7 +8,10 @@ export default function Howto() {
 		>
 			<div className="max-w-6xl px-8 mx-auto bg-gray-100 md:px-16 xl:px-10">
 				<div className="flex flex-col items-center lg:flex-row justify-center">
-					<div className="flex flex-col items-start justify-center w-full h-full pr-8 mb-10 lg:mb-0 lg:w-1/2">
+					<div
+						className="flex flex-col items-start justify-center w-full h-full pr-8 mb-10 lg:mb-0 lg:w-1/2"
+						data-aos="fade-up-right"
+					>
 						<h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl lg:text-5xl xl:text-6xl">
 							How To Buy
 						</h2>
@@ -26,7 +29,7 @@ export default function Howto() {
 							Buy Now!
 						</a>
 					</div>
-					<div className=" w-full lg:w-1/4">
+					<div className=" w-full lg:w-1/4" data-aos="fade-down-left">
 						<img src="./howtobuy-mockup.png" alt="mockup" />
 					</div>
 				</div>

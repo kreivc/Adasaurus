@@ -8,7 +8,10 @@ export default function Tokenomics() {
 		>
 			<div className="max-w-6xl px-8 mx-auto bg-gray-100 md:px-16 xl:px-10">
 				<div className="flex flex-col items-center lg:flex-row">
-					<div className="flex flex-col items-start justify-center w-full h-full pr-8 mb-10 lg:mb-0 lg:w-1/2">
+					<div
+						className="flex flex-col items-start justify-center w-full h-full pr-8 mb-10 lg:mb-0 lg:w-1/2"
+						data-aos="zoom-in-right"
+					>
 						<p className="mb-2 text-base font-medium tracking-tight text-[#293cc7] uppercase">
 							We really think for holders needs
 						</p>
@@ -27,7 +30,7 @@ export default function Tokenomics() {
 							View Case Studies
 						</a> */}
 					</div>
-					<div className="w-full lg:w-1/2">
+					<div className="w-full lg:w-1/2" data-aos="zoom-in-left">
 						<blockquote className="flex items-center justify-between w-full col-span-1 p-6 bg-white rounded-lg shadow">
 							<div className="flex flex-col pr-8">
 								<div className="relative pl-12">

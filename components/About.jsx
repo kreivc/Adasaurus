@@ -8,7 +8,7 @@ export default function About() {
 		>
 			<div className="relative max-w-3xl px-8 text-center text-white auto lg:px-0">
 				<div className="flex flex-col w-full md:flex-row">
-					<div className="flex justify-between ">
+					<div className="flex justify-between" data-aos="fade-right">
 						<h1 className="mx-8 relative flex flex-col text-6xl font-extrabold text-left text-black">
 							<span className="text-[#293cc7]">Adasaurus</span>
 							<span>What is</span>
@@ -21,13 +21,17 @@ export default function About() {
 							alt="dino2"
 							width="300px"
 							className="object-cover mt-3 ml-7 h-80 lg:h-96"
+							data-aos="fade-left"
 						/>
 					</div>
 				</div>
 
 				<div className="my-16 border-b border-gray-300 lg:my-24"></div>
 
-				<h2 className="text-left text-gray-500 xl:text-xl mx-12">
+				<h2
+					className="text-left text-gray-500 xl:text-xl mx-12"
+					data-aos="slide-up"
+				>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit.
 					Unde eum voluptatibus incidunt temporibus eveniet optio
 					expedita harum perspiciatis sit recusandae quas fugit a,

@@ -31,7 +31,7 @@ export default function Home() {
 				<meta name="title" content="Adasaurus" />
 				<meta
 					name="description"
-					content="Our main goal is to provide people a safe and trustworthy place where they can invest their money. PEE holders can earn Ether rewards by holding a certain amount of the token. As a community developed token, we focus on the needs of our community members."
+					content="Our main goal is to provide people a safe and trustworthy place where they can invest their money. Adasaurus holders can earn Ether rewards by holding a certain amount of the token. As a community developed token, we focus on the needs of our community members."
 				/>
 
 				<meta property="og:type" content="website" />
