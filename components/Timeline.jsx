@@ -11,7 +11,7 @@ export default function Timeline() {
 					className="text-xs font-bold text-left text-[#293cc7] uppercase sm:mx-6 sm:text-center sm:text-normal sm:font-bold"
 					data-aos="zoom-in"
 				>
-					Our Plan For Future?
+					Our Plan For The Future?
 				</p>
 				<h3
 					className="mt-1 text-2xl font-bold text-left text-gray-800 sm:mx-10 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center"
@@ -26,7 +26,7 @@ export default function Timeline() {
 					<h3 className="text-lg font-bold text-[#01bf71] sm:text-xl md:text-2xl">
 						Day 1
 					</h3>
-					<ul class="list-none md:list-disc mt-2 text-base text-gray-600 sm:text-lg md:text-base">
+					<ul className="list-none md:list-disc mt-2 text-base text-gray-600 sm:text-lg md:text-base">
 						<li>
 							Raids and pinned messages in several TG groups will be organised
 							as we dubble down on our marketing efforts.{" "}
@@ -54,7 +54,7 @@ export default function Timeline() {
 					<h3 className="text-lg font-bold text-[#01bf71] sm:text-xl md:text-2xl">
 						Day 2
 					</h3>
-					<ul class="list-none md:list-disc mt-2 text-base text-gray-600 sm:text-lg md:text-base">
+					<ul className="list-none md:list-disc mt-2 text-base text-gray-600 sm:text-lg md:text-base">
 						<li>Confirmation and execution of all major listings.</li>
 						<li>
 							To continue our marketing effects, we will deploy our Twitter and
@@ -69,7 +69,7 @@ export default function Timeline() {
 					<h3 className="text-lg font-bold text-[#01bf71] sm:text-xl md:text-2xl">
 						Day 3
 					</h3>
-					<ul class="list-none md:list-disc mt-2 text-base text-gray-600 sm:text-lg md:text-base">
+					<ul className="list-none md:list-disc mt-2 text-base text-gray-600 sm:text-lg md:text-base">
 						<li>Social Media campaign expansion.</li>
 						<li>Developping several promo groups on Discord</li>
 					</ul>
@@ -79,12 +79,14 @@ export default function Timeline() {
 					data-aos="flip-up"
 				>
 					<h3 className="text-lg font-bold text-[#01bf71] sm:text-xl md:text-2xl">
-						What We Do Next??
+						Day 4: TBA
 					</h3>
-					<p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-						To be Announced! Just reminder, something big like a dino will
-						coming!
-					</p>
+					<ul className="list-none md:list-disc mt-2 text-base text-gray-600 sm:text-lg md:text-base">
+						<li>To be Announced! Just reminder, something big will come!</li>
+					</ul>
+					{/* <p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
+						To be Announced! Just reminder, something big will come!
+					</p> */}
 				</div>
 			</div>
 		</section>

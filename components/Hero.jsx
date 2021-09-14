@@ -25,14 +25,15 @@ export default function Hero() {
 				>
 					<span className="inline md:block">Adasaurus</span>
 					<span className="relative mt-2 text-transparent bg-clip-text bg-gradient-to-br from-[#01bf71] to-[#46e4a2] md:inline-block">
-						Big Dino For <br /> <span className="text-[#293cc7]">ADA</span>{" "}
-						Holders
+						All my friends are dead <br />{" "}
+						<span className="text-[#293cc7]">can I share my</span> with you ?
 					</span>
 				</h1>
 			</div>
 			<div className="mx-auto mt-5 text-gray-500 md:mt-12 md:max-w-lg md:text-center lg:text-lg">
 				The only dinosaur that survived the apocalyptic event. Since then,
-				Adasaurus roams the planet in search for a playmate to share his ADA.
+				Adasaurus roams the planet in search for a playmate to share his ADA
+				with.
 			</div>
 			<div className="flex flex-col items-center mt-12 text-center">
 				<span className="relative inline-flex w-full md:w-auto">

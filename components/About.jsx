@@ -1,4 +1,5 @@
 import React from "react";
+import { FaTelegram, FaTwitter } from "react-icons/fa";
 
 export default function About() {
 	return (
@@ -37,6 +38,24 @@ export default function About() {
 					money that will be received in the marketing wallet for post launch
 					investments.
 				</h2>
+				<div
+					className="flex mx-12 mt-6 text-[#3bc98d] items-center space-x-0 md:space-x-5 md:justify-center flex-wrap"
+					data-aos="fade-right"
+				>
+					<h2 className="text-2xl font-bold mb-3 md:mb-0">
+						Join Our Community
+					</h2>
+					<div className="flex items-start space-x-5">
+						<button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center space-x-2 transition duration-500 ease-in-out">
+							<FaTelegram />
+							<span>Telegram</span>
+						</button>
+						<button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center space-x-2 transition duration-500 ease-in-out">
+							<FaTwitter />
+							<span>Twitter</span>
+						</button>
+					</div>
+				</div>
 			</div>
 		</section>
 	);

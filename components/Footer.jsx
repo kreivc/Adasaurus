@@ -71,7 +71,7 @@ export default function Footer() {
 				</nav>
 				<div className="flex justify-center mt-8 space-x-6">
 					<a
-						href="https://t.me"
+						href="https://t.me/AdaSaurus"
 						target="_blank"
 						className="text-gray-400 hover:text-gray-500"
 					>
@@ -87,7 +87,7 @@ export default function Footer() {
 						<FaPoo className="w-6 h-6" />
 					</a>
 					<a
-						href="https://twitter.com"
+						href="https://twitter.com/AdasaurusBSC"
 						target="_blank"
 						className="text-gray-400 hover:text-gray-500"
 					>

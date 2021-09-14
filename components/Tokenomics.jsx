@@ -12,9 +12,9 @@ export default function Tokenomics() {
 						className="flex flex-col items-start justify-center w-full h-full pr-8 mb-10 lg:mb-0 lg:w-1/2"
 						data-aos="zoom-in-right"
 					>
-						<p className="mb-2 text-base font-medium tracking-tight text-[#293cc7] uppercase">
+						{/* <p className="mb-2 text-base font-medium tracking-tight text-[#293cc7] uppercase">
 							We really think for holders needs
-						</p>
+						</p> */}
 						<h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl lg:text-5xl xl:text-6xl">
 							Tokenomics
 						</h2>
@@ -48,7 +48,7 @@ export default function Tokenomics() {
 										10.000.000.000 Total Supply
 									</p> */}
 									<p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
-										3% Maximum wallet
+										3% Max wallet
 									</p>
 									<p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
 										7% ADA Reward

@@ -28,14 +28,14 @@ export default function Navbar({ isOpen, toggle }) {
 							<span className="text-[#01bf71]">.</span>
 						</a>
 						<hr className="mx-2 md:hidden" />
-						<div className="mt-1 flex items-start justify-center w-full space-x-0 text-center lg:space-x-8 md:w-2/3 md:mt-0 md:flex-row md:items-center">
+						<div className="mt-1 flex-col flex items-start justify-center w-full space-x-0 ml-6 lg:space-x-8 md:w-2/3 md:mt-0 md:flex-row md:items-center">
 							<Link
 								to="home"
 								smooth="true"
 								duration={500}
 								spy={true}
 								exact="true"
-								className="text-center inline-block w-full py-2 mx-0 font-medium text-gray-700 md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71] hover:text-[#01bf71]"
+								className="inline-block w-full py-2 mx-0 font-medium text-gray-700 md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71] hover:text-[#01bf71]"
 								onClick={toggle}
 							>
 								Home
@@ -46,7 +46,7 @@ export default function Navbar({ isOpen, toggle }) {
 								duration={500}
 								spy={true}
 								exact="true"
-								className="text-center inline-block w-full py-2 mx-0 font-medium text-gray-700 md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71] hover:text-[#01bf71]"
+								className="inline-block w-full py-2 mx-0 font-medium text-gray-700 md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71] hover:text-[#01bf71]"
 								onClick={toggle}
 							>
 								Why
@@ -57,7 +57,7 @@ export default function Navbar({ isOpen, toggle }) {
 								duration={500}
 								spy={true}
 								exact="true"
-								className="text-center inline-block w-full py-2 mx-0 font-medium text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-[#01bf71] lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71]"
+								className="inline-block w-full py-2 mx-0 font-medium text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-[#01bf71] lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71]"
 								onClick={toggle}
 							>
 								Tokenomics
@@ -68,7 +68,7 @@ export default function Navbar({ isOpen, toggle }) {
 								duration={500}
 								spy={true}
 								exact="true"
-								className="text-center inline-block w-full py-2 mx-0 font-medium text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-[#01bf71] lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71]"
+								className="inline-block w-full py-2 mx-0 font-medium text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-[#01bf71] lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71]"
 								onClick={toggle}
 							>
 								Timeline
@@ -76,7 +76,7 @@ export default function Navbar({ isOpen, toggle }) {
 							<a
 								href="https://poocoin.app/"
 								target="_blank"
-								className="text-center inline-block w-full py-2 mx-0 font-medium text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-[#01bf71] lg:mx-3 md:text-center cursor-pointer focus:outline-none"
+								className="inline-block w-full py-2 mx-0 font-medium text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-[#01bf71] lg:mx-3 md:text-center cursor-pointer focus:outline-none"
 								onClick={toggle}
 							>
 								Chart
