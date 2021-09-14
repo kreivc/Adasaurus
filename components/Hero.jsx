@@ -26,7 +26,7 @@ export default function Hero() {
 					<span className="inline md:block">Adasaurus</span>
 					<span className="relative mt-2 text-transparent bg-clip-text bg-gradient-to-br from-[#01bf71] to-[#46e4a2] md:inline-block md:pb-3 pr-1">
 						All my friends are dead <br />{" "}
-						<span className="text-[#293cc7]">can I share mine</span> with you?
+						<span className="text-[#293cc7]">can I share ADA</span> with you?
 					</span>
 				</h1>
 			</div>

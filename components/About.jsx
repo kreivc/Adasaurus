@@ -12,8 +12,8 @@ export default function About() {
 					<div className="flex justify-between" data-aos="fade-right">
 						<h1 className="mx-8 relative flex flex-col text-6xl font-extrabold text-left text-black">
 							<span className="text-[#293cc7]">Adasaurus</span>
-							<span>Why is</span>
-							<span>That?</span>
+							<span>What can</span>
+							<span>You expect?</span>
 						</h1>
 					</div>
 					<div className="relative top-0 right-0 h-96 w-96 mt-12 md:-mt-16 md:absolute md:h-96">
