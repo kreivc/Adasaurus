@@ -20,13 +20,13 @@ export default function Hero() {
 					className="transform scale-x-[-1]"
 				/>
 				<h1
-					className="text-4xl font-extrabold leading-10 tracking-tight text-left text-gray-900 md:text-left sm:leading-none md:text-6xl lg:text-7xl"
+					className="text-4xl font-extrabold leading-10 tracking-tight text-left text-gray-900 md:text-left sm:leading-none md:text-6xl lg:text-6xl"
 					data-aos="fade-up"
 				>
 					<span className="inline md:block">Adasaurus</span>
 					<span className="relative mt-2 text-transparent bg-clip-text bg-gradient-to-br from-[#01bf71] to-[#46e4a2] md:inline-block md:pb-3 pr-1">
-						All my friends are dead <br />{" "}
-						<span className="text-[#293cc7]">can I share ADA</span> with you?
+						All my friends are dead <br />
+						<span className="text-[#293cc7]">can I share my ADA</span> with you?
 					</span>
 				</h1>
 			</div>
