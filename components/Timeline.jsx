@@ -24,39 +24,55 @@ export default function Timeline() {
 					data-aos="flip-up"
 				>
 					<h3 className="text-lg font-bold text-[#01bf71] sm:text-xl md:text-2xl">
-						Initialize Token - September, 2021
+						Day 1
 					</h3>
-					<p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-						In this phase, we launch community group, lauch website
-						also initialize Adasaurus token.
+					<ul class="list-none md:list-disc mt-2 text-base text-gray-600 sm:text-lg md:text-base">
+						<li>
+							Raids and pinned messages in several TG groups will be organised
+							as we dubble down on our marketing efforts.{" "}
+						</li>
+						<li>
+							CMS post and upvotes will be launched to increase our visibility.
+						</li>
+						<li>Several major listings will be applied</li>
+					</ul>
+					{/* <p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
+						* Raids and pinned messages in several TG groups will be organised
+						as we dubble down on our marketing efforts. 
 					</p>
+					<p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
+						* CMS post and upvotes will be launched to increase our visibility.
+					</p>
+					<p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
+						* Several major listings will be applied
+					</p> */}
 				</div>
 				<div
 					className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3"
 					data-aos="flip-up"
 				>
 					<h3 className="text-lg font-bold text-[#01bf71] sm:text-xl md:text-2xl">
-						Marketing Phase - September, 2021
+						Day 2
 					</h3>
-					<p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-						After token lauch, we have target for 10k Holders also
-						we do further listings to some platform and do
-						collaboration with key market players.
-					</p>
+					<ul class="list-none md:list-disc mt-2 text-base text-gray-600 sm:text-lg md:text-base">
+						<li>Confirmation and execution of all major listings.</li>
+						<li>
+							To continue our marketing effects, we will deploy our Twitter and
+							FB campaign.
+						</li>
+					</ul>
 				</div>
 				<div
 					className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3"
 					data-aos="flip-up"
 				>
 					<h3 className="text-lg font-bold text-[#01bf71] sm:text-xl md:text-2xl">
-						Retain Holder - October, 2021
+						Day 3
 					</h3>
-					<p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-						After Marketing Phase, we know all thing will be bored
-						so we provide a solution like Contract logo, further
-						marketing, also reach 20k Holders & 15k Telegram Members
-						for target.
-					</p>
+					<ul class="list-none md:list-disc mt-2 text-base text-gray-600 sm:text-lg md:text-base">
+						<li>Social Media campaign expansion.</li>
+						<li>Developping several promo groups on Discord</li>
+					</ul>
 				</div>
 				<div
 					className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3"
@@ -66,8 +82,8 @@ export default function Timeline() {
 						What We Do Next??
 					</h3>
 					<p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-						To be Announced! Just reminder, something big like a
-						dino will coming!
+						To be Announced! Just reminder, something big like a dino will
+						coming!
 					</p>
 				</div>
 			</div>

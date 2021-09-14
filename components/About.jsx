@@ -11,7 +11,7 @@ export default function About() {
 					<div className="flex justify-between" data-aos="fade-right">
 						<h1 className="mx-8 relative flex flex-col text-6xl font-extrabold text-left text-black">
 							<span className="text-[#293cc7]">Adasaurus</span>
-							<span>What is</span>
+							<span>Why is</span>
 							<span>That?</span>
 						</h1>
 					</div>
@@ -32,10 +32,10 @@ export default function About() {
 					className="text-left text-gray-500 xl:text-xl mx-12"
 					data-aos="slide-up"
 				>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Unde eum voluptatibus incidunt temporibus eveniet optio
-					expedita harum perspiciatis sit recusandae quas fugit a,
-					vitae voluptas?
+					We have a full marketing and visibility campgain mapped out of which
+					we will make investements pre launch and boost our efforts with the
+					money that will be received in the marketing wallet for post launch
+					investments.
 				</h2>
 			</div>
 		</section>

@@ -29,7 +29,7 @@ export default function Footer() {
 							exact="true"
 							className="text-base leading-6 text-gray-500 hover:text-gray-900 cursor-pointer"
 						>
-							About
+							Why
 						</Link>
 					</div>
 					<div className="px-5 py-2">

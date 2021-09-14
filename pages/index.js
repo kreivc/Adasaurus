@@ -22,32 +22,23 @@ export default function Home() {
 				<title>Adasaurus</title>
 
 				<meta charSet="utf-8" />
-				<meta
-					name="viewport"
-					content="width=device-width, initial-scale=1"
-				/>
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="shortcut icon" href="./DINO.png" />
 
 				<meta name="title" content="Adasaurus" />
 				<meta
 					name="description"
-					content="Our main goal is to provide people a safe and trustworthy place where they can invest their money. Adasaurus holders can earn Ether rewards by holding a certain amount of the token. As a community developed token, we focus on the needs of our community members."
+					content="We have a full marketing and visibility campgain mapped out of which we will make investements pre launch and boost our efforts with the money that will be received in the marketing wallet for post launch investments."
 				/>
 
 				<meta property="og:type" content="website" />
-				<meta
-					property="og:url"
-					content="https://i.ibb.co/xjWY3PV/DINO.png"
-				/>
+				<meta property="og:url" content="https://i.ibb.co/jWyzKFM/DINO.png" />
 				<meta property="og:title" content="Adasaurus" />
 				<meta
 					property="og:description"
-					content="Our main goal is to provide people a safe and trustworthy place where they can invest their money. PEE holders can earn Ether rewards by holding a certain amount of the token. As a community developed token, we focus on the needs of our community members."
+					content="We have a full marketing and visibility campgain mapped out of which we will make investements pre launch and boost our efforts with the money that will be received in the marketing wallet for post launch investments."
 				/>
-				<meta
-					property="og:image"
-					content="https://i.ibb.co/xjWY3PV/DINO.png"
-				/>
+				<meta property="og:image" content="https://i.ibb.co/jWyzKFM/DINO.png" />
 			</Head>
 
 			<section

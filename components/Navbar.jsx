@@ -49,7 +49,7 @@ export default function Navbar({ isOpen, toggle }) {
 								className="text-center inline-block w-full py-2 mx-0 font-medium text-gray-700 md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center cursor-pointer focus:outline-none focus:border-b-2 focus:border-[#01bf71] hover:text-[#01bf71]"
 								onClick={toggle}
 							>
-								About
+								Why
 							</Link>
 							<Link
 								to="tokenomics"
@@ -101,9 +101,7 @@ export default function Navbar({ isOpen, toggle }) {
 					onClick={toggle}
 				>
 					<svg
-						className={`w-6 h-6 text-gray-700 ${
-							!isOpen ? "block" : "hidden"
-						}`}
+						className={`w-6 h-6 text-gray-700 ${!isOpen ? "block" : "hidden"}`}
 						fill="none"
 						strokeLinecap="round"
 						strokeLinejoin="round"

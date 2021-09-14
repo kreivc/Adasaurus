@@ -19,9 +19,9 @@ export default function Tokenomics() {
 							Tokenomics
 						</h2>
 						<p className="my-6 text-lg text-gray-600">
-							Lorem ipsum, dolor sit amet consectetur adipisicing
-							elit. Porro eveniet error suscipit eaque laborum
-							quasi ipsam tempore.
+							The token is constructed with a max transaction and a max wallet.
+							This way everybody can get an honest share of all the riches the
+							Adasaurus has to give.
 						</p>
 						{/* <a
 							href="#"
@@ -42,22 +42,22 @@ export default function Tokenomics() {
 										<path d="M30.7 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2C12.7 83.1 5 72.6 5 61.5c0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S30.7 31.6 30.7 42zM82.4 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2-11.8 0-19.5-10.5-19.5-21.6 0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S82.4 31.6 82.4 42z"></path>
 									</svg>
 									<p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
-										1% Max transaction
+										2% Max transaction
 									</p>
-									<p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
+									{/* <p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
 										10.000.000.000 Total Supply
-									</p>
+									</p> */}
 									<p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
-										4% Maximum wallet
+										3% Maximum wallet
 									</p>
 									<p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
 										7% ADA Reward
 									</p>
 									<p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
-										4% Liquidity Provider
+										3% Liquidity Provider
 									</p>
 									<p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
-										6% Marketing
+										4% Marketing
 									</p>
 								</div>
 							</div>
