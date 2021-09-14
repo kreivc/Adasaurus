@@ -25,14 +25,13 @@ export default function Hero() {
 				>
 					<span className="inline md:block">Adasaurus</span>
 					<span className="relative mt-2 text-transparent bg-clip-text bg-gradient-to-br from-[#01bf71] to-[#46e4a2] md:inline-block">
-						Big Dino For <br />{" "}
-						<span className="text-[#293cc7]">ADA</span> Holders
+						Big Dino For <br /> <span className="text-[#293cc7]">ADA</span>{" "}
+						Holders
 					</span>
 				</h1>
 			</div>
 			<div className="mx-auto mt-5 text-gray-500 md:mt-12 md:max-w-lg md:text-center lg:text-lg">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-				molestiae praesentium nihil ullam ad?
+				All my friends are dead, can I share my ADA with you?
 			</div>
 			<div className="flex flex-col items-center mt-12 text-center">
 				<span className="relative inline-flex w-full md:w-auto">
@@ -49,13 +48,7 @@ export default function Hero() {
 						{copied ? "Copied" : "Click to copy"}
 					</span>
 				</span>
-				<Link
-					to="about"
-					smooth={true}
-					duration={500}
-					spy={true}
-					exact="true"
-				>
+				<Link to="about" smooth={true} duration={500} spy={true} exact="true">
 					<ArrowDownIcon className="animate-bounce h-7 w-7 my-7 text-[#3bc98d] cursor-pointer" />
 				</Link>
 			</div>
