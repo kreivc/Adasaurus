@@ -46,14 +46,22 @@ export default function About() {
 						Join Our Community
 					</h2>
 					<div className="flex items-start space-x-5">
-						<button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center space-x-2 transition duration-500 ease-in-out">
+						<a
+							className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center space-x-2 transition duration-500 ease-in-out cursor-pointer"
+							href="https://t.me/AdaSaurus"
+							target="_blank"
+						>
 							<FaTelegram />
 							<span>Telegram</span>
-						</button>
-						<button className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center space-x-2 transition duration-500 ease-in-out">
+						</a>
+						<a
+							className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center space-x-2 transition duration-500 ease-in-out cursor-pointer"
+							href="https://twitter.com/AdasaurusBSC"
+							target="_blank"
+						>
 							<FaTwitter />
 							<span>Twitter</span>
-						</button>
+						</a>
 					</div>
 				</div>
 			</div>
