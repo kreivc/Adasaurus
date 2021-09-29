@@ -47,7 +47,7 @@ export default function About() {
 					</h2>
 					<div className="flex items-start space-x-5">
 						<a
-							className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center space-x-2 transition duration-500 ease-in-out cursor-pointer"
+							className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center space-x-2 transition duration-500 ease-in-out cursor-pointer hover:text-[#0088cc]"
 							href="https://t.me/AdaSaurus"
 							target="_blank"
 						>
@@ -55,7 +55,7 @@ export default function About() {
 							<span>Telegram</span>
 						</a>
 						<a
-							className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center space-x-2 transition duration-500 ease-in-out cursor-pointer"
+							className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center space-x-2 transition duration-500 ease-in-out cursor-pointer hover:text-[#55acee]"
 							href="https://twitter.com/AdasaurusBSC"
 							target="_blank"
 						>
