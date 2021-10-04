@@ -74,7 +74,7 @@ export default function Navbar({ isOpen, toggle }) {
 								Timeline
 							</Link>
 							<a
-								href="https://poocoin.app/"
+								href="https://poocoin.app/tokens/0x506fcd8b9f86c8c253a88f0656bc5d2927af8a59"
 								target="_blank"
 								className="inline-block w-full py-2 mx-0 font-medium text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-[#01bf71] lg:mx-3 md:text-center cursor-pointer focus:outline-none"
 								onClick={toggle}

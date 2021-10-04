@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { ArrowDownIcon } from "@heroicons/react/solid";
 import { Link } from "react-scroll";
 import { CopyToClipboard } from "react-copy-to-clipboard";
+import useMobileDetect from "use-mobile-detect-hook";
 
 export default function Hero() {
 	const [copied, setCopied] = useState(false);
+	const detectMobile = useMobileDetect();
 
 	return (
 		<div
@@ -37,13 +39,15 @@ export default function Hero() {
 			</div>
 			<div className="flex flex-col items-center mt-12 text-center">
 				<span className="relative inline-flex w-full md:w-auto">
-					<CopyToClipboard text="Not Release Yet">
+					<CopyToClipboard text="0x506fcd8b9f86c8c253a88f0656bc5d2927af8a59">
 						<button
 							type="button"
 							className="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white bg-[#01bf71] border border-transparent rounded-full md:w-auto hover:bg-[#3bc98d] focus:outline-none transition duration-150 ease-in-out"
 							onClick={() => setCopied(!copied)}
 						>
-							Not Release Yet
+							{detectMobile.isMobile()
+								? "0x506fcd8b9f86c8c253a88f0656..."
+								: "0x506fcd8b9f86c8c253a88f0656bc5d2927af8a59"}
 						</button>
 					</CopyToClipboard>
 					<span className="absolute top-0 right-2 px-2 py-1 -mt-3 -mr-6 text-xs font-medium leading-tight text-white bg-[#293cc7] rounded-full">

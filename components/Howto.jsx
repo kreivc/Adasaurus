@@ -1,4 +1,5 @@
 import React from "react";
+import Metamask from "./Metamask";
 
 export default function Howto() {
 	return (
@@ -16,18 +17,20 @@ export default function Howto() {
 							How To Buy
 						</h2>
 						<p className="my-6 text-lg text-gray-600">
-							Don't forget to connect your wallet to pancake swap,
-							then copy Adasaurus address on landing page above
-							then swap! All you need just wait and enjoy
-							cumulative gain + free ADA
+							Don't forget to connect your wallet to pancake swap, then copy
+							Adasaurus address on landing page above then swap! All you need
+							just wait and enjoy cumulative gain + free ADA
 						</p>
-						<a
-							href="https://pancakeswap.finance/"
-							target="_blank"
-							className="flex items-center justify-center px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-[#01bf71] border border-transparent rounded-md shadow hover:bg-[#3bc98d] focus:outline-none md:py-4 md:text-lg md:px-10"
-						>
-							Buy Now!
-						</a>
+						<div className="flex space-x-0 md:space-x-3 space-y-3 md:space-y-0 flex-wrap">
+							<a
+								href="https://pancakeswap.finance/"
+								target="_blank"
+								className="flex items-center justify-center px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-[#01bf71] border border-transparent rounded-md shadow hover:bg-[#3bc98d] focus:outline-none md:py-2 md:text-lg md:px-5"
+							>
+								Buy Now!
+							</a>
+							<Metamask />
+						</div>
 					</div>
 					<div className=" w-full lg:w-1/4" data-aos="fade-down-left">
 						<img src="./howtobuy-mockup.png" alt="mockup" />

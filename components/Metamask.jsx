@@ -8,7 +8,7 @@ export default function Metamask() {
 		<>
 			<Tippy content="Add to Metamask">
 				<button
-					disabled={true}
+					// disabled={true}
 					onClick={async () => {
 						const provider = window.web3.currentProvider;
 						provider.sendAsync(
@@ -17,7 +17,7 @@ export default function Metamask() {
 								params: {
 									type: "ERC20",
 									options: {
-										address: "0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+										address: "0x506fcd8b9f86c8c253a88f0656bc5d2927af8a59",
 										symbol: "Adasaurus",
 										decimals: 4,
 										image: "https://i.ibb.co/jWyzKFM/DINO.png",
@@ -44,8 +44,8 @@ export default function Metamask() {
 						cursor: "pointer",
 					}}
 				>
-					<Tippy content="Not Release Yet">
-						<div className="flex space-x-2 px-3 py-2 bg-[#01bf71] hover:bg-[#38be86] transition-all ease-out duration-300 rounded-md text-white">
+					<Tippy content="Add to Metamask">
+						<div className="flex items-center justify-center px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-[#01bf71] border border-transparent rounded-md shadow hover:bg-[#3bc98d] focus:outline-none md:py-2 md:text-lg md:px-5">
 							<img src="./Metamask.png" alt="" width="20px" />
 							<span>Add To Metamask</span>
 						</div>
